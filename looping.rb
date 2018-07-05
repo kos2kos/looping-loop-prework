@@ -3,7 +3,10 @@ def looping
 	loop do 
 	  puts "whatever"
 	  count+=1
-	  break
+	  if count > 10 
+	    break
+	  end
+	end
 end
 
 #call your method here
