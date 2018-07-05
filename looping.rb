@@ -9,4 +9,5 @@ def looping
 	end
 end
 
+looping
 #call your method here
